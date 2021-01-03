@@ -3,9 +3,6 @@
 
 # # Chords in text
 
-# In[106]:
-
-
 inputText = """
     
     [III]
@@ -18,9 +15,6 @@ inputText = """
     [iii][vii][iv][ii][i]
 """
 print(inputText)
-
-
-
 
 substitutions = [
     ('[III','[Ⅲ'),
@@ -45,8 +39,6 @@ for search, replacement in substitutions:
     inputText = outputText;
 print(inputText)
 
-replace('iv','ⅳ')                       .replace('v','ⅴ').replace('vi','ⅵ').replace('vii','ⅶ');
-outputText
 
 
 
